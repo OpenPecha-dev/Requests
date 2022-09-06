@@ -27,8 +27,7 @@ about: A Request for Work
 - [Adoption Window](#adoption-window)
 
 > **Note**
-> This is a note
-Make sure you understand [Type-A]([https://docs.google.com/document/d/1LQBz8wL-96jBdpWJLkvmsnJbm4-lUm9lexZFWfSfra4#heading=h.yrnebqnrvkpj](https://docs.google.com/document/d/17RHdAuJep5GsirwL7vEbnE1qX9zdmf67YioNQxA-c-k/edit#heading=h.yrnebqnrvkpj)) and [Type-B](https://docs.google.com/document/d/17RHdAuJep5GsirwL7vEbnE1qX9zdmf67YioNQxA-c-k/edit#heading=h.yrnebqnrvkpj) requests, and the relevant limitations. RFWs that don't follow these guidelines will be disfqualified. 
+> Make sure you understand [Type-A]([https://docs.google.com/document/d/1LQBz8wL-96jBdpWJLkvmsnJbm4-lUm9lexZFWfSfra4#heading=h.yrnebqnrvkpj](https://docs.google.com/document/d/17RHdAuJep5GsirwL7vEbnE1qX9zdmf67YioNQxA-c-k/edit#heading=h.yrnebqnrvkpj)) and [Type-B](https://docs.google.com/document/d/17RHdAuJep5GsirwL7vEbnE1qX9zdmf67YioNQxA-c-k/edit#heading=h.yrnebqnrvkpj) requests, and the relevant limitations. RFWs that don't follow these guidelines will be disfqualified. 
 
 **ALL FIELDS ARE REQUIRED**
 
@@ -61,7 +60,7 @@ Make sure you understand [Type-A]([https://docs.google.com/document/d/1LQBz8wL-9
 
 <h2 id="conceptual-design">Conceptual Design</h2>
 
-*Provide a detailed, well-structured conceptual outline of the contents of this RFW.
+*Provide a detailed, well-structured conceptual outline of the contents of this RFW.*
 
 <h2 id="drawbacks">Drawbacks</h2>
 
