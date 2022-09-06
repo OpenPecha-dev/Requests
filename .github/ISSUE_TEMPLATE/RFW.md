@@ -15,11 +15,13 @@ about: A Request for Work
 <h2 id="table-of-contents">Table of Contents</h2>
 
 - [Owner](#owner)
+- [Type](#type)
 - [Summary](#summary)
 - [Reasoning](#reasoning)
 - [Motivation](#motivation)
-- [Named concepts](#named-concepts)
-- [Examples](#examples)
+- [Definitions](#definitions)
+- [Results](#results)
+- [Difference](#difference)
 - [Conceptual Design](#conceptual-design)
 - [Drawbacks](#drawbacks)
 - [Alternatives](#alternatives)
@@ -33,30 +35,37 @@ about: A Request for Work
 
 <h2 id="owner">Owner</h2>
 
-*Who is this request for work for?*
+*Who is this request for?*
+
+<h2 id="type">Type</h2>
+
+*Is this a new request or an extension request?*
 
 <h2 id="summary">Summary</h2>
 
-*Provide a short, high-level overview of what is being introduced, added, changed, or deleted and why.*
+*Provide a short, high-level overview of what is being introduced, added, changed, or deleted—-and why.*
 
 <h2 id="reasoning">Reasoning</h2>
 
-*Explain why this work is necessary. (Keep in mind that everything done in this RFW will take time away from other work.)*
+*Why is this proposed work necessary and more important than other work we could be doing?*
 
 <h2 id="motivation">Motivation</h2>
 
-*Describe in detail the motivation behind this request.*
+*What is the motivation behind this RFW?*
 
-<h2 id="named-concepts">Named Concepts</h2>
+<h2 id="definitions">Definitions</h2>
 
-*Define any named concepts that are used in this RFW*
+*Define any new or important concepts that are used in this RFW.*
 
-<h2 id="examples">Examples</h2>
+<h2 id="results">Results</h2>
 
-* 1) Explain concretely what will manifest as a result of this RFW.
-* 2) Explain how is it different from what we already have?*
-* 3) Explain what OpenPecha users will experience as a result of this RFW. How will they feel as a result of it? How will they benefit as a result of it?*
-* 4) Provide sample messages for any new messages the system will display as a result of this RFW.*
+1. *What will manifest as a result of this RFW?*
+2. *What will OpenPecha users experience as a result of this RFW? How will they benefit from it? How will they feel?*
+3. *Provide sample messages for any new messages the system will display as a result of this RFW.*
+
+<h2 id="difference">Difference</h2>
+
+*Why is this proposed work different from what we already have?*
 
 <h2 id="conceptual-design">Conceptual Design</h2>
 
@@ -64,16 +73,16 @@ about: A Request for Work
 
 <h2 id="drawbacks">Drawbacks</h2>
 
-*Describe the possible drawbacks of this work. (Before writing, think about the following: How will this proposed work affect what we already have? Might this work limit OpenPecha in the future? Could it take OpenPecha in a direction that distracts us from our mission?)*
+*What are the possible drawbacks of this proposed work? (Before answering, think about the following: How will this proposed work affect what we already have? Could this work limit OpenPecha in the future? Could it take OpenPecha in a direction that distracts us from our mission?)*
 
 <h2 id="alternatives">Alternatives</h2>
 
-*Explain any available alternatives that could be used to achieve the same or similar business value. (Consider the 80/20 rule here, i.e., alternatives that might provide 80% of the business value for 20% of the work.)*
+*Describe any available alternatives that could be used to achieve the same or similar business value. (Consider the 80/20 rule here, i.e., alternatives that could provide 80% of the business value for 20% of the work.)*
 
 <h2 id="new-data">New Data</h2>
 
-*Describe any new data artifacts that will result from this proposed work.*
+*Describe any new data artifacts that will result from this RFW.*
 
 <h2 id="adoption-window">Adoption Window</h2>
 
-*Roughly, when would the proposed work be completed?*
+*Roughly, when do you expect this work to be finished?*
