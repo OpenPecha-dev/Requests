@@ -7,13 +7,10 @@
 <h3 align="center">Requests</h3>
 
 <p align="center">
-  <a href="#repo-description">Repo description</a> •
   <a href="#workflow-for-openpecha-developers">Workflow for OpenPecha developers</a> •
   <a href="#repo-owners"> Repo owners</a> •
 </p>
 <hr>
-
-## Repo description
 
 This repo is dedicated to managing RFWs and RFCs.
 
@@ -65,8 +62,8 @@ If the approved RFC is for an **ongoing** project:
 ### 4. Create a GitHub project in the repository
 
 1. Create a GitHub project in the repo.
-1. Update your project's description and README
-1. Add columns for In Progress, 
+1. Update your project's description and README.
+1. Add a column after **In Progess** and call it **PRs in Review**.
 
 ### 5. Convert workphase items into issues
 
@@ -83,15 +80,26 @@ If the approved RFC is for an **ongoing** project:
 
 ### 8. Do the work and create pull requests
 
-1. Do the work and add commits.
-2. When you have finished an issue
-  1.  
-4. Make one pull request per issue/workphase.
-5. Let your assigned reviewers know the PR is ready for them.
+1. Move the issue/workphase you are working on to the **In Progress** column of your project board.
+1. Work on it and add commits.
+1. Go to your daily standup meeting. 
+1. When you finish the issue issue/workphase, move it to the **PRs in Review** column of your project board
+1. Submit a PR for the issue/workphase.
+1. Let your assigned reviewers know the PR is ready for them.
 
-### 9. Move to the next issue
-The Job Owner reviews each pull request, asks for changes if needed, and signs off on the work by merging the PR. After merging the PR, the Job Owner moves the issue to the completed section of the project board.
+### 9. Move to the next issue/workphase
 
+After the PR has been merged:
+
+1. Move the issue to the **Done** column of the project board.
+1. Move on to the mext issue and repeat step 8 until the RFC is finished.
+
+### 10. Review the process
+
+After you finish all the workphases of the RFC:
+
+1. Review the process with your scrum master and teammate(s), if any, to see what worked well and what didn't work so well. Use this knowledge to prepare and complete your next RFC.
+ 
 ## Repo owners
 
 - [@ngawangtrinley](https://github.com/ngawangtrinley)
