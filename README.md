@@ -6,9 +6,6 @@
 
 <h3 align="center">Requests</h3>
 
-
-<!-- Replace the title of the repository -->
-
 <p align="center">
   <a href="#description">Description</a> •
   <a href="#owner">Owner</a> •
@@ -17,71 +14,89 @@
 </p>
 <hr>
 
+## Repo description
 
-
-
-
-## Description
-
-Dedicated for managing RFWs and RFCs as issues.
+This repo is dedicated to managing RFWs and RFCs.
 
 - RFW -> Request for Work, [Create](https://github.com/OpenPecha/Requests/issues/new?assignees=&labels=&template=RFW.md&title=%5BRFW%5D")
 - RFC -> Request for Comment, [Create](https://github.com/OpenPecha/Requests/issues/new?assignees=&labels=&template=RFC.md&title=%5BRFC%5D)
 
-<!-- This section provides a high-level overview for the repo -->
+## OpenPecha development workflow for developers
 
-## Workflow
+- སྦྱིན་བདག The **Management** orders and pays for the job. 
+- འགན་འཁུར་བ། The **Job Owner** oversees the job for Management.
+- ལག་བསྟར་བ། The **Team Lead** plans and does the job.
+- ལས་གྲོགས། The Team Lead's **Teammates** help the Team Lead do the job.
 
-### 1. Create a request for job (RFJ ལས་ཀའི་སྙན་ཞུ།)
-སྙན་ཞུ་འདི་འགན་འཁུར་བས་སྦྱིན་བདག་མཉམ་དུ་གྲོས་བྱེད་དེ་འབྲི་དགོས།
+### 1. Receive an RFW
 
-The Job Owner writes an RFJ that details the job that the Client asks for.
+Receive an RFW from management.
 
-### 2. Create a request for comments (RFC ལས་འཆར་སྙན་ཞུ།)
-སྙན་ཞུ་འདི་ལག་བསྟར་བས་འགན་འཁུར་བ་མཉམ་དུ་གྲོས་བྱེད་དེ་འབྲི་དགོས།
+### 2. Create an RFC
 
-The Team Lead writes an RFC to show that they understand the work and have a plan that will lead to success.
+Review the RFW and [create an RFC](https://github.com/OpenPecha/Requests/issues/new?assignees=&labels=&template=RFC.md&title=%5BRFC%5D) for it. This involves:
 
-### 3. Approve the RFC
-The Job Owner reviews the RFC and meets with the Team Lead to go over it. Once the Job Owner is satisfied with the Team Lead's plan, the Job Owner signs off on the RFC.
+1. Understanding the work
+1. Considering several possible solutions
+1. Understanding their pros and cons of each solution
+1. Choosing the best solution
+1. Creating a plan that will lead to success
+
+See [How fill out an RFC](#) for specific directions.
+
+> **Note** RFCs should be kept in the [Requests repo](https://github.com/OpenPecha/Requests/) except while assigning issues .
+
+### 3. Get the RFC approved
+
+1. Let management know that the RFC is ready for review.
+1. Meet on-one-one with each member of the management team to go over the RFC.
+1. Integrate management's suggestions.
+1. Submit the RFC for management to sign off on.
+
+> **Note** This process should take no more than two days.
 
 ### 4. Create a repository
-The Team Lead creates a job repository, updates its readme file, and transfers the RFC to the new repo.
 
-### 5. Create a Github project and milestones
-The Team Lead creates a Github project for the job. Then they create milestones based on the key phases of the RFC's detailed plan.
+If the approved RFC is for a **new** project:
 
-### 6. Convert work plan items into issues
-The Team Lead converts each item in the RFC work plan into an issue and assigns it to both the job's repository and project.
+1. Create a new repository for the project using the [OpenPecha project template](https://github.com/OpenPecha/openpecha-project-template).
+1. Update the repo's README file.
+1. Transfer the RFC to the new repo.
 
-### 7. Assign issues to the team
-The Team Lead assigns each issue to themselves or their Teammates if working as a team.
+If the approved RFC is for an **ongoing** project:
 
-### 8. Assign milestones to issues
-The Team Lead assigns issues to milestones.
+1. Update the repo's README file if needed to include information about the new work you are doing.
+1. Transfer the RFC to the repo where you will be working.
+
+### 5. Create a GitHub project in the repository
+
+1. Create a Github project for the work.
+
+### 6. Convert workphase items into issues
+
+1. Convert each item in the RFC's workphase section [into an issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue#creating-an-issue-from-a-task-list-item).
+
+### 7. Assign issues and add to project board
+
+1. Assign each issue to yourself or your teammate if you are working as a team.
+1. [Add each issue to the project](https://docs.github.com/en/github-ae@latest/issues/organizing-your-work-with-project-boards/tracking-work-with-project-boards/adding-issues-and-pull-requests-to-a-project-board).
+
+### 8. Move the RFC back to the Requests repo
+
+1. [Move the RFC back to the Requests repo](https://docs.github.com/en/issues/tracking-your-work-with-issues/transferring-an-issue-to-another-repository) so management can easily find it.
 
 ### 9. Do the work and create pull requests
-The Team Lead and their teammates do the work and add commits. When they are done, they make one pull request per issue/task.
 
-### 10. Merge requests
+1. Do the work and add commits.
+2. When you have finished an issue
+  1.  
+4. Make one pull request per issue/workphase.
+5. Let your assigned reviewers know the PR is ready for them.
+
+### 10. Move to the next issue
 The Job Owner reviews each pull request, asks for changes if needed, and signs off on the work by merging the PR. After merging the PR, the Job Owner moves the issue to the completed section of the project board.
 
-
-## Owner
+## Repo owners
 
 - [@ngawangtrinley](https://github.com/ngawangtrinley)
 - [@mikkokotila](https://github.com/mikkokotila)
-
-<!-- This section lists the owners of the repo -->
-
-## Integrations
-
-- No integrations with other repos.
-
-<!-- This section must list as bulleted list how this repo depends or is integrated with other repos -->
-
-## Docs
-
-No Documentation
-
-<!-- This section must link to the docs which are in the root of the repository in /docs -->
