@@ -12,6 +12,9 @@ name: RFC
 about: A Request for Comments
 ---
 
+<details>
+  <summary>Plan</summary>
+
 <h2 id="table-of-contents">Table of Contents</h2>
 
 - [Housekeeping](#housekeeping)
@@ -142,28 +145,37 @@ ALL BELOW FIELDS ARE REQUIRED
 
 *Links to audio recordings of related discussion.*
 
+</details>
+
+ 
 <h2 id="work-phases">Work Phases</h2>
 
 <h3 id="non-coding">Planning</h3>
 
 *Keep original naming and structure, and keep as first section in Work phases section*
 
-
-- [ ] #60
-      time estimate: 30 min
-      time taken: 
-
-- [ ] RFC completed
+- [ ] RFC completed on: 
       Estimated time: 
       Actual time: 
 - [ ] RFC reviewed and approved by: 
+      Estimated time: 
+      Actual time: 
 
 <h3 id="implementation">Implementation</h3>
 
 *A list of checkboxes, one per PR. Each PR should have a descriptive name that clearly illustrates what the work phase is about.*
-- [ ] ..
+- [ ] ...
+      Estimated time: 
+      Actual time: 
+- [ ] ...
+      Estimated time: 
+      Actual time: 
 
 <h3 id="implementation">Completion</h3>
 
-- [ ] Tested by: 
 - [ ] Documentation
+      Estimated time: 
+      Actual time: 
+- [ ] Tested and approved by: ..., ..., @evanyerburgh
+      Estimated time: 
+      Actual time: 
