@@ -142,17 +142,23 @@ ALL BELOW FIELDS ARE REQUIRED
 
 *Links to audio recordings of related discussion.*
 
-## Work Phases
-<h2 id="work-phases"></h2>
+<h2 id="work-phases">Work Phases</h2>
 
-<h3 id="non-coding">Non-Coding</h3>
+<h3 id="non-coding">Planning</h3>
 
 *Keep original naming and structure, and keep as first section in Work phases section*
 
-  - [ ] Planning
-  - [ ] Documentation
-  - [ ] Testing
+- [ ] RFC completed
+       Estimated time: 
+       Actual time: 
+- [ ] RFC reviewed and approved by: 
 
 <h3 id="implementation">Implementation</h3>
 
 *A list of checkboxes, one per PR. Each PR should have a descriptive name that clearly illustrates what the work phase is about.*
+- [ ] ..
+
+<h3 id="implementation">Completion</h3>
+
+- [ ] Tested by: 
+- [ ] Documentation
