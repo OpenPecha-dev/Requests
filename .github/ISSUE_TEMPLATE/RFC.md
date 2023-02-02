@@ -148,9 +148,14 @@ ALL BELOW FIELDS ARE REQUIRED
 
 *Keep original naming and structure, and keep as first section in Work phases section*
 
+
+- [ ] #60
+      time estimate: 30 min
+      time taken: 
+
 - [ ] RFC completed
-       Estimated time: 
-       Actual time: 
+      Estimated time: 
+      Actual time: 
 - [ ] RFC reviewed and approved by: 
 
 <h3 id="implementation">Implementation</h3>
