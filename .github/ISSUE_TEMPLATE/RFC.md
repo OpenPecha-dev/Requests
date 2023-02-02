@@ -12,8 +12,10 @@ name: RFC
 about: A Request for Comments
 ---
 
+## Work Planning
+
 <details>
-  <summary>Plan</summary>
+  <summary>Details</summary>
 
 <h2 id="table-of-contents">Table of Contents</h2>
 
@@ -164,18 +166,18 @@ ALL BELOW FIELDS ARE REQUIRED
 <h3 id="implementation">Implementation</h3>
 
 *A list of checkboxes, one per PR. Each PR should have a descriptive name that clearly illustrates what the work phase is about.*
-- [ ] ...
+- [ ] PR 1
       Estimated time: 
       Actual time: 
-- [ ] ...
+- [ ] PR 2
       Estimated time: 
       Actual time: 
 
 <h3 id="implementation">Completion</h3>
 
-- [ ] Documentation
+- [ ] Tested and approved by: @username, @username
       Estimated time: 
       Actual time: 
-- [ ] Tested and approved by: ..., ..., @evanyerburgh
+- [ ] Documentation approved @evanyerburgh
       Estimated time: 
       Actual time: 
