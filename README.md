@@ -28,12 +28,8 @@ This repo is dedicated to managing RFWs (requests for work) and RFCs (requests f
 
 ## Integrations
 
-- No integrations with other repos.
-
-<!-- This section must list as bulleted list how this repo depends or is integrated with other repos -->
+None
 
 ## Docs
 
-No documentation.
-
-<!-- This section must link to the docs which are in the root of the repository in /docs -->
+[OpenPecha Wiki](https://wiki.openpecha.org/#/)
