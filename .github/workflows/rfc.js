@@ -12,13 +12,15 @@ class RFC {
     }
 
     getWorkItems() {
-        for (let i = this.workItemsSection.start; i < this.workItemsSection.end; i++) {
-            const line = this.bodyLines[i]
+        const workItems = []
+        for (let idx = this.workItemsSection.start; idx < this.workItemsSection.end; idx++) {
+            const line = this.bodyLines[idx]
             if (line.includes('- [ ]')) {
-                const workItem = line.replace('- [ ]', '')
-                console.log(i, workItem)
+                const title = line.replace('- [ ]', '')
+                workItems.push({idx, title})
             }
         }
+        return workItems
     }
 
     markWorkItemCompleted(workItemIdx) {
@@ -56,4 +58,6 @@ function test() {
     console.log(rfc.toString())
 }
 
-test()
+// test()
+
+module.exports.RFC = RFC
