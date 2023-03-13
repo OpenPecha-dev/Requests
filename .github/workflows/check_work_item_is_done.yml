@@ -22,4 +22,15 @@ jobs:
             });
 
             const rfc_obj = new rfc_module.RFC(issues[0].body)
-            console.log(rfc_obj.getWorkItems())
+            for (const workItem of rfc_obj.getWorkItems()) {
+              const { data: linkedIssue } = await github.rest.issues.get({
+                owner: workItem.org,
+                repo: workItem.repo,
+                issue_number: workItem.issue
+              })
+              if (linkedIssue.state === 'closed') {
+                rfc_obj.markWorkItemAsCompleted(workItem.nLine)
+
+
+              }
+            }

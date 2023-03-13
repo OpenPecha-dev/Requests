@@ -25,17 +25,25 @@ class RFC {
         return workItems
     }
 
-    markWorkItemCompleted(workItemIdx) {
+    markWorkItemAsCompleted(workItemIdx) {
         const line = this.bodyLines[workItemIdx]
         if (line.includes('- [ ]')) {
             this.bodyLines[workItemIdx] = line.replace('- [ ]', '- [x]')
         }
     }
 
-    setActualTime(workItemIdx, actualTime) {
+    setActualTime(workItemIdx, startedAt, endedAt) {
+        const startedDate = new Date(startedAt);
+        const endedDate = new Date(endedAt);
+        const milliseconds = Math.abs(endedDate - startedDate);
+        const hoursInPercent = milliseconds / 36e5
+        const hours = Math.floor(hoursInPercent)
+        const minutesPercent = hoursInPercent - hours
+        const minutes = Math.floor(minutesPercent * 60)
+        const minutesZeroPadded = minutes.toString().padStart(2, '0')
         const timeLine = this.bodyLines[workItemIdx + 2]
         if (timeLine.includes('Actual time:')) {
-            this.bodyLines[workItemIdx + 2] += ` ${actualTime}`
+            this.bodyLines[workItemIdx + 2] += ` ${hours}:${minutesZeroPadded} hrs`
         }
     }
 
@@ -46,7 +54,7 @@ class RFC {
 
 function getRFCFromFS() {
     const fs = require('fs')
-    const content = fs.readFileSync('example-rfc.txt', 'utf8')
+    const content = fs.readFileSync('.github/workflows/example-rfc.txt', 'utf8')
     return new RFC(content)
 }
 
@@ -54,12 +62,12 @@ function test() {
     const rfc = getRFCFromFS()
     console.log(rfc.workItemsSection)
     console.log(rfc.getWorkItems())
-    rfc.markWorkItemCompleted(154)
-    rfc.setActualTime(154, '1:30 hrs')
+    rfc.markWorkItemAsCompleted(154)
+    rfc.setActualTime(154, '2023-03-09T05:00:00Z', '2023-03-09T06:05:00Z')
     console.log(rfc.getWorkItems())
     console.log(rfc.toString())
 }
 
-// test()
+test()
 
 module.exports.RFC = RFC
