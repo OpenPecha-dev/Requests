@@ -21,25 +21,30 @@ jobs:
               state: "open"
             });
 
-            const issue = issues[9]
-            const rfc_obj = new rfc_module.RFC(issue.body)
-            for (const workItem of rfc_obj.getWorkItems()) {
-              if (!workItem.org || !workItem.repo || !workItem.issue) break
+            console.log("Number of RFCs: ", issues.length)
 
-              const { data: linkedIssue } = await github.rest.issues.get({
-                owner: workItem.org,
-                repo: workItem.repo,
-                issue_number: workItem.issue
-              })
-              if (linkedIssue.state === 'closed') {
-                rfc_obj.markWorkItemAsCompleted(workItem.nLine)
-                rfc_obj.setActualTime(workItem.nLine, linkedIssue.created_at, linkedIssue.closed_at)
+            for (const issue of issues) {
+              if (!issue.title.startsWith("[RFC")) continue
+
+              const rfc_obj = new rfc_module.RFC(issue.body)
+              for (const workItem of rfc_obj.getWorkItems()) {
+                if (!workItem.org || !workItem.repo || !workItem.issue) continue
+
+                const { data: linkedIssue } = await github.rest.issues.get({
+                  owner: workItem.org,
+                  repo: workItem.repo,
+                  issue_number: workItem.issue
+                })
+                if (linkedIssue.state === 'closed') {
+                  rfc_obj.markWorkItemAsCompleted(workItem.nLine)
+                  rfc_obj.setActualTime(workItem.nLine, linkedIssue.created_at, linkedIssue.closed_at)
+                }
               }
-            }
 
-            await github.rest.issues.update({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              issue_number: issue.number,
-              body: rfc_obj.toString()
-            });
+              await github.rest.issues.update({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issue.number,
+                body: rfc_obj.toString()
+              });
+            }
