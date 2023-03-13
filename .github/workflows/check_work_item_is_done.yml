@@ -30,7 +30,8 @@ jobs:
               })
               if (linkedIssue.state === 'closed') {
                 rfc_obj.markWorkItemAsCompleted(workItem.nLine)
-
-
+                rfc.obj.setActualTime(workItem.nLine, linkedIssue.create_at, linkedIssue.closed_at)
               }
             }
+
+            console.log(rfc_obj.toString())

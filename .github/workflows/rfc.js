@@ -68,6 +68,6 @@ function test() {
     console.log(rfc.toString())
 }
 
-test()
+// test()
 
 module.exports.RFC = RFC
