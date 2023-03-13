@@ -9,14 +9,17 @@ jobs:
   check-issues:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v3
       - name: List Issues
         uses: actions/github-script@v6
         with:
           script: |
+            const rfc_module = require('./.github/workflows/rfc.js')
             const { data: issues } = await github.rest.issues.listForRepo({
               owner: context.repo.owner,
               repo: context.repo.repo,
               state: "open"
             });
 
-            console.log(issues[0].body)
+            const rfc_obj = new rfc_module.RFC(issues[0].body)
+            console.log(rfc_obj.getWorkItems())

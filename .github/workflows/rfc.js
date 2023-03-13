@@ -13,11 +13,13 @@ class RFC {
 
     getWorkItems() {
         const workItems = []
-        for (let idx = this.workItemsSection.start; idx < this.workItemsSection.end; idx++) {
-            const line = this.bodyLines[idx]
+        for (let nLine = this.workItemsSection.start; nLine < this.workItemsSection.end; nLine++) {
+            const line = this.bodyLines[nLine]
             if (line.includes('- [ ]')) {
-                const title = line.replace('- [ ]', '')
-                workItems.push({idx, title})
+                const title = line.replace('- [ ]', '').trim()
+                const [org, repoAndIsssue] = title.split('/')
+                const [repo, issue] = repoAndIsssue.split('#')
+                workItems.push({nLine, org, repo, issue})
             }
         }
         return workItems
