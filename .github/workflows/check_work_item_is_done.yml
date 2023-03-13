@@ -1,0 +1,20 @@
+name: Check if Work Item is completed
+
+on:
+  [push]
+  # schedule:
+  #   - cron: "0 0 * * *"
+
+jobs:
+  check-issues:
+    runs-on: ubuntu-latest
+    steps:
+      - name: List Issues
+        uses: actions/github-script@v4
+        with:
+          script: |
+            const { data } = await github.issues.list({
+              owner: context.repo.owner,
+              repo: context.repo.repo
+            });
+            console.log(data.map(issue => issue.title));
