@@ -23,6 +23,8 @@ jobs:
 
             const rfc_obj = new rfc_module.RFC(issues[0].body)
             for (const workItem of rfc_obj.getWorkItems()) {
+              if (!workItem.org || !workItem.repo || !workItem.issue) break
+
               const { data: linkedIssue } = await github.rest.issues.get({
                 owner: workItem.org,
                 repo: workItem.repo,
@@ -30,7 +32,7 @@ jobs:
               })
               if (linkedIssue.state === 'closed') {
                 rfc_obj.markWorkItemAsCompleted(workItem.nLine)
-                rfc.obj.setActualTime(workItem.nLine, linkedIssue.create_at, linkedIssue.closed_at)
+                rfc_obj.setActualTime(workItem.nLine, linkedIssue.created_at, linkedIssue.closed_at)
               }
             }
 

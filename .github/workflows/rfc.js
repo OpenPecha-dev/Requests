@@ -41,9 +41,10 @@ class RFC {
         const minutesPercent = hoursInPercent - hours
         const minutes = Math.floor(minutesPercent * 60)
         const minutesZeroPadded = minutes.toString().padStart(2, '0')
+
         const timeLine = this.bodyLines[workItemIdx + 2]
         if (timeLine.includes('Actual time:')) {
-            this.bodyLines[workItemIdx + 2] += ` ${hours}:${minutesZeroPadded} hrs`
+            this.bodyLines[workItemIdx + 2] += ` ${hours}:${minutesZeroPadded} ${'hr' + (hours > 1 ? 's' : '')}`
         }
     }
 
@@ -63,11 +64,11 @@ function test() {
     console.log(rfc.workItemsSection)
     console.log(rfc.getWorkItems())
     rfc.markWorkItemAsCompleted(154)
-    rfc.setActualTime(154, '2023-03-09T05:00:00Z', '2023-03-09T06:05:00Z')
+    rfc.setActualTime(154, '2023-03-09T11:15:46Z', '2023-03-09T11:22:47Z')
     console.log(rfc.getWorkItems())
     console.log(rfc.toString())
 }
 
-// test()
+test()
 
 module.exports.RFC = RFC
