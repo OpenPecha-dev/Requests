@@ -154,7 +154,7 @@ ALL BELOW FIELDS ARE REQUIRED
 *A list of checkboxes, one per PR. Each PR should have a descriptive name that clearly illustrates what the work phase is about.*
 - [ ] OpenPecha/critical-edition-serializer#2
       Estimated time: 1:30 hr
-      Actual time:
+      Actual time: asdf
 - [ ] OpenPecha/critical-edition-serializer#3
       Estimated time: 1:30 hr
       Actual time:

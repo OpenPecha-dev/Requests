@@ -42,9 +42,11 @@ class RFC {
         const minutes = Math.floor(minutesPercent * 60)
         const minutesZeroPadded = minutes.toString().padStart(2, '0')
 
-        const timeLine = this.bodyLines[workItemIdx + 2]
+        let timeLine = this.bodyLines[workItemIdx + 2]
         if (timeLine.includes('Actual time:')) {
-            this.bodyLines[workItemIdx + 2] += ` ${hours}:${minutesZeroPadded} ${'hr' + (hours > 1 ? 's' : '')}`
+            const colonIdx = timeLine.indexOf(':')
+            timeLine = timeLine.substring(0, colonIdx + 1) + ` ${hours}:${minutesZeroPadded} ${'hr' + (hours > 1 ? 's' : '')}`
+            this.bodyLines[workItemIdx + 2] = timeLine
         }
     }
 
@@ -69,6 +71,6 @@ function test() {
     console.log(rfc.toString())
 }
 
-test()
+// test()
 
 module.exports.RFC = RFC
