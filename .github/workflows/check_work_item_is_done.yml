@@ -1,16 +1,15 @@
 name: Check if Work Item is completed
 
 on:
-  [push]
-  # schedule:
-  #   - cron: "0 0 * * *"
+  schedule:
+    - cron: "0 16 * * *"
 
 jobs:
-  check-issues:
+  audit:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: List Issues
+      - name: Run Audit
         uses: actions/github-script@v6
         with:
           script: |
