@@ -45,12 +45,11 @@ class RFC {
         if (hours >= 24) {
           work_days = Math.floor(hours / 24)
         } 
-        const work_hours = work_days * 8
 
         let timeLine = this.bodyLines[workItemIdx + 2]
         if (timeLine.includes('Actual time:')) {
             const colonIdx = timeLine.indexOf(':')
-            timeLine = timeLine.substring(0, colonIdx + 1) + ` ${work_hours} ${'hr' + (work_hours > 1 ? 's' : '')}`
+            timeLine = timeLine.substring(0, colonIdx + 1) + ` ${work_days} ${'day' + (work_days > 1 ? 's' : '')}`
             this.bodyLines[workItemIdx + 2] = timeLine
         }
     }
