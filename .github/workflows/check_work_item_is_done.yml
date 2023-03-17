@@ -2,7 +2,7 @@ name: Check if Work Item is completed
 
 on:
   schedule:
-    - cron: "0 16 * * *"
+    - cron: "10 11 * * *"
 
 jobs:
   audit:
