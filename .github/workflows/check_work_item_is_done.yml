@@ -24,6 +24,7 @@ jobs:
 
             for (const issue of issues) {
               if (!issue.title.startsWith("[RFC")) continue
+              console.log(issue.title)
 
               const rfc_obj = new rfc_module.RFC(issue.body)
               for (const workItem of rfc_obj.getWorkItems()) {

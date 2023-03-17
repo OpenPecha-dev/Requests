@@ -17,6 +17,9 @@ class RFC {
             const line = this.bodyLines[nLine]
             if (line.includes('- [ ]')) {
                 const title = line.replace('- [ ]', '').trim()
+
+                if (!title || !(title.includes('/') && title.includes('#'))) continue
+
                 const [org, repoAndIsssue] = title.split('/')
                 const [repo, issue] = repoAndIsssue.split('#')
                 workItems.push({nLine, org, repo, issue})
