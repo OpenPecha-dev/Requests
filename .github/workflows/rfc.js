@@ -41,14 +41,16 @@ class RFC {
         const milliseconds = Math.abs(endedDate - startedDate);
         const hoursInPercent = milliseconds / 36e5
         const hours = Math.floor(hoursInPercent)
-        const minutesPercent = hoursInPercent - hours
-        const minutes = Math.floor(minutesPercent * 60)
-        const minutesZeroPadded = minutes.toString().padStart(2, '0')
+        let work_days = 1
+        if (hours >= 24) {
+          work_days = Math.floor(hours / 24)
+        } 
+        const work_hours = work_days * 8
 
         let timeLine = this.bodyLines[workItemIdx + 2]
         if (timeLine.includes('Actual time:')) {
             const colonIdx = timeLine.indexOf(':')
-            timeLine = timeLine.substring(0, colonIdx + 1) + ` ${hours}:${minutesZeroPadded} ${'hr' + (hours > 1 ? 's' : '')}`
+            timeLine = timeLine.substring(0, colonIdx + 1) + ` ${work_hours} ${'hr' + (work_hours > 1 ? 's' : '')}`
             this.bodyLines[workItemIdx + 2] = timeLine
         }
     }
