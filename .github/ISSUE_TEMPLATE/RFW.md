@@ -29,9 +29,9 @@ about: A Request for Work
 
 <h2 id="housekeeping">Housekeeping</h2>
 
-Make sure to clearly understand [Type-A]([https://docs.google.com/document/d/1LQBz8wL-96jBdpWJLkvmsnJbm4-lUm9lexZFWfSfra4#heading=h.yrnebqnrvkpj](https://docs.google.com/document/d/17RHdAuJep5GsirwL7vEbnE1qX9zdmf67YioNQxA-c-k/edit#heading=h.yrnebqnrvkpj)) and [Type-B](https://docs.google.com/document/d/17RHdAuJep5GsirwL7vEbnE1qX9zdmf67YioNQxA-c-k/edit#heading=h.yrnebqnrvkpj) requests, and the relavant limitations. Failling to follow the guidelines pertaining to the two acceptable types of RFWs will automatically lead to disfqualification of the RFW. 
+Make sure to clearly understand [Type-A]([https://docs.google.com/document/d/1LQBz8wL-96jBdpWJLkvmsnJbm4-lUm9lexZFWfSfra4#heading=h.yrnebqnrvkpj](https://docs.google.com/document/d/17RHdAuJep5GsirwL7vEbnE1qX9zdmf67YioNQxA-c-k/edit#heading=h.yrnebqnrvkpj)) and [Type-B](https://docs.google.com/document/d/17RHdAuJep5GsirwL7vEbnE1qX9zdmf67YioNQxA-c-k/edit#heading=h.yrnebqnrvkpj) requests, and the relavant limitations. Failing to follow the guidelines pertaining to the two acceptable types of RFWs will automatically lead to the disqualification of the RFW. 
 
-Take time to complete each section below with as much detail as is required to establish a comprehensive understanding about the underlying product specification.
+Take time to complete each section below with as much detail as is required to establish a comprehensive understanding of the underlying product specification.
 
 **ALL BELOW FIELDS ARE REQUIRED**
 
@@ -41,11 +41,11 @@ Take time to complete each section below with as much detail as is required to e
 
 <h2 id="summary">Summary</h2>
 
-*What is being introduced, added, changed, deleted and why; explain it in short and concise form. Basically, this section provides a high-level overview and summary of what will be elaborated upon below.*
+*What is being introduced, added, changed, deleted, and why; explain it in a short and concise form. Basically, this section provides a high-level overview and summary of what will be elaborated upon below.*
 
 <h2 id="is-this-really-necessary">Is This Really Necessary?</h2>
 
-*When answering this question, keep in mind, everything done here, is away from doing something else elsewhere. It's not enough for a thing to be a "good choice" or "good way", it should be the "best choice" or "best way".*
+*When answering this question, remember that everything done here is away from doing something else elsewhere. It's not enough for a thing to be a "good choice" or "good way", it should be the "best choice" or "best way".*
 
 <h2 id="motivation">Motivation</h2>
 
@@ -58,7 +58,7 @@ Take time to complete each section below with as much detail as is required to e
 <h2 id="examples">Examples</h2>
 
 * 1) Explain concretely what will manifest as a result of this RFW.
-* 2) Explain how is it different from what is already manifesting i.e. what we already have?*
+* 2) Explain how it is different from what is already manifesting i.e. what we already have?*
 * 3) Explain what OpenPecha users will experience as a result of this RFW. How will they feel as a result of it? How will they benefit as a result of it?*
 * 4) If applicable, provide sample messages for any new messages the system will display as a result of this RFW.*
 
@@ -68,7 +68,7 @@ Take time to complete each section below with as much detail as is required to e
 
 <h2 id="drawbacks">Drawbacks</h2>
 
-*What are the possible drawbacks of this? Think carefully how the proposed work will affect what we already have, and the possible ways in which it might end up limiting us in the future, or take us to directions that become diversions from our mission.*
+*What are the possible drawbacks of this? Think carefully about how the proposed work will affect what we already have, and the possible ways in which it might end up limiting us in the future, or take us in directions that become diversions from our mission.*
 
 <h2 id="alternatives">Alternatives</h2>
 
@@ -80,4 +80,4 @@ Take time to complete each section below with as much detail as is required to e
 
 <h2 id="adaption-window">Adaption Window</h2>
 
-A rough timing for the planned release for the specification possibly resulting from this request.
+A rough timing for the planned release of the specification possibly resulting from this request.
