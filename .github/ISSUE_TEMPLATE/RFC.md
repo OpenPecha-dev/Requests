@@ -39,7 +39,7 @@ about: A Request for Comments
 
 <h2 id="housekeeping">Housekeeping</h2>
 
-*Please add ref in specified format into `RFC` title, e.g `[RFC9999]` if corresponding RFW is `[RFW9999]`.*
+*Please add ref in specified format into `RFC` title, e.g `[RFC9999]` if the corresponding RFW is `[RFW9999]`.*
 
 *Please add into this `RFC` and related `PR's` titles `[RFC_id]` e.g `[RFC_9999]`.*
 
@@ -65,9 +65,9 @@ ALL BELOW FIELDS ARE REQUIRED
 
 </em>
 
-*This section includes practical examples and explain how this proposal makes those examples work.*
+*This section includes practical examples and explains how this proposal makes those examples work.*
 
-*This section becomes the engineering specification and work plan, so it must be sufficiently detailed to faciliate for that.*
+*This section becomes the engineering specification and work plan, so it must be sufficiently detailed to facilitate that.*
 
 <h2 id="alternatives">Alternatives</h2>
 
@@ -94,9 +94,9 @@ ALL BELOW FIELDS ARE REQUIRED
 <em>
   
 - What similar work have we already successfully completed?
-- Is this something that have already been built by others?
-- What other related learnings we have?
-- Are there useful academic literature or other articles related with this topic? (provide links)
+- Is this something that has already been built by others?
+- What other related learnings do we have?
+- Are there useful academic literature or other articles related to this topic? (provide links)
 - Have we built a relevant prototype previously?
 - Do we have a rough mock for the UI/UX?
 - Do we have a schematic for the system?
@@ -117,19 +117,19 @@ ALL BELOW FIELDS ARE REQUIRED
 <em>
 
 - Which parts of the current system are affected by this request?
-- What other open requests are closely related with this request?
-- Does this request depend on fulfillment of any other request?
+- What other open requests are closely related to this request?
+- Does this request depend on the fulfillment of any other request?
 - Does any other request depend on the fulfillment of this request?*
 
 </em>
  
 <h2 id="future-possibilities">Future possibilities</h2>
 
-*How do you see the particular system or part of the system affected by this request be altered or extended in the future.*
+*How do you see the particular system or part of the system affected by this request being altered or extended in the future?*
 
 <h2 id="infrastructure">Infrastructure</h2>
 
-*Describe the new infrastructure or changes in current infrastructure required to fulfill this request.*
+*Describe the new infrastructure or changes in the current infrastructure required to fulfill this request.*
 
 <h2 id="testing">Testing</h2>
 
@@ -154,7 +154,7 @@ ALL BELOW FIELDS ARE REQUIRED
 
 <h3 id="non-coding">Planning</h3>
 
-*Keep original naming and structure, and keep as first section in Work phases section*
+*Keep original naming and structure, and keep it as the first section in the Work Phases section*
 
 - [ ] RFC completed on: 
       Estimated time: 
