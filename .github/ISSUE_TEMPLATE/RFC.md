@@ -17,7 +17,7 @@ about: A Request for Comments
 <details>
   <summary>Details</summary>
 
-<h2 id="table-of-contents">Table of Contents</h2>
+## Table of Contents
 
 - [Housekeeping](#housekeeping)
 - [Named Concepts](#named-concepts)
@@ -37,7 +37,7 @@ about: A Request for Comments
 - [Recordings](#recordings)
 - [Work Phases](#work-phases)
 
-<h2 id="housekeeping">Housekeeping</h2>
+## Housekeeping
 
 *Please add ref in specified format into `RFC` title, e.g `[RFC9999]` if the corresponding RFW is `[RFW9999]`.*
 
@@ -45,23 +45,29 @@ about: A Request for Comments
 
 ALL BELOW FIELDS ARE REQUIRED
 
-<h2 id="named-concepts">Named Concepts</h2>
+## Named Concepts
 
 *Explain any new concepts introduced in this request.*
 
-<h2 id="summary">Summary</h2>
+## Summary
 
 *Explain in a Single paragraph what this request is about.*
 
-<h2 id="reference-level-explanation">Reference-Level Explanation</h2>
+## Reference-Level Explanation
 
 *This section provides a detailed technical overview of the work. The design is explained with enough depth and detail to make it clear how:*
 
 <em>
 
-- The proposed changes interact with other systems (or other parts of the system that is changed)
-- The actual implementation will take place
-- Known challenges can be readily overcome
+> The proposed changes interact with other systems (or other parts of the system that is changed)
+
+
+> The actual implementation will take place
+
+
+> Known challenges can be readily overcome
+
+
 
 </em>
 
@@ -69,50 +75,65 @@ ALL BELOW FIELDS ARE REQUIRED
 
 *This section becomes the engineering specification and work plan, so it must be sufficiently detailed to facilitate that.*
 
-<h2 id="alternatives">Alternatives</h2>
-
+## Alternatives
 
 *Confirm that alternative approaches have been evaluated and explain those alternatives briefly.*
 
-<h3 id="rationale">Rationale</h3>
 
-<em>
+### Rationale
 
-- Why the currently proposed design was selected over alternatives?
-- What would be the impact of going with one of the alternative approaches?
-- Is the evaluation tentative, or is it recommended to use more time to evaluate different approaches?
-</em>
+> Why the currently proposed design was selected over alternatives?
 
-<h2 id="drawbacks">Drawbacks</h2>
+
+> What would be the impact of going with one of the alternative approaches?
+
+
+> Is the evaluation tentative, or is it recommended to use more time to evaluate different approaches?
+
+
+
+## Drawbacks
 
 *Describe any particular caveats and drawbacks that may arise from fulfilling this particular request?*
 
-<h2 id="useful-rererences">Useful References</h2>
+## Useful References
 
 *Describe useful parallels and learnings from other requests, or work in previous projects.*
 
-<em>
-  
-- What similar work have we already successfully completed?
-- Is this something that has already been built by others?
-- What other related learnings do we have?
-- Are there useful academic literature or other articles related to this topic? (provide links)
-- Have we built a relevant prototype previously?
-- Do we have a rough mock for the UI/UX?
-- Do we have a schematic for the system?
 
+> What similar work have we already successfully completed?
+
+
+> Is this something that has already been built by others?
+
+
+> What other related learnings do we have?
+
+
+> Are there useful academic literature or other articles related to this topic? (provide links)
+
+
+> Have we built a relevant prototype previously?
+
+
+> Do we have a rough mock for the UI/UX?
+
+
+> Do we have a schematic for the system?
+
+
+
+## Unresolved Questions
+
+1. What is there that is unresolved (and will be resolved as part of fulfilling this request)?
+dsd
+
+> Are there other requests with same or similar problems to solve?
+
+ 
 </em>
 
-<h2 id="unresolved-questions">Unresolved Questions</h2>
-
-<em>
-
-- What is there that is unresolved (and will be resolved as part of fulfilling this request)?
-- Are there other requests with same or similar problems to solve?
-  
-</em>
-
-<h2 id="parts-of-the-system-affected">Parts of the System Affected</h2>
+## Parts of the System Affected
 
 <em>
 
@@ -123,34 +144,34 @@ ALL BELOW FIELDS ARE REQUIRED
 
 </em>
  
-<h2 id="future-possibilities">Future possibilities</h2>
+## Future possibilities
 
 *How do you see the particular system or part of the system affected by this request being altered or extended in the future?*
 
-<h2 id="infrastructure">Infrastructure</h2>
+## Infrastructure
 
 *Describe the new infrastructure or changes in the current infrastructure required to fulfill this request.*
 
-<h2 id="testing">Testing</h2>
+## Testing
 
 *Describe the kind of testing procedures that are needed as part of fulfilling this request.*
 
-<h2 id="documentation">Documentation</h2>
+## Documentation
 
 *Describe the level of documentation fulfilling this request involves. Consider both end-user documentation and developer documentation.*
 
-<h2 id="version-history">Version History</h2>
+## Version History
 
 *History of changes to this RFC. Following semantic versioning pattern and v0.1.2 for style.*
 
-<h2 id="recordings">Recordings</h2>
+## Recordings
 
 *Links to audio recordings of related discussion.*
 
 </details>
 
  
-<h2 id="work-phases">Work Phases</h2>
+## Work Phases
 
 <h3 id="non-coding">Planning</h3>
 
