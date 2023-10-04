@@ -12,7 +12,7 @@ name: RFW
 about: A Request for Work
 ---
 
-# RFW00001: *RFW title*
+# RFW00: *RFW title*
 
 ## Named Concepts
 *Clearly introduce any new named concepts used in this RFW*
