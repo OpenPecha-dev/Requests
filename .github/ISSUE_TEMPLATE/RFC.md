@@ -1,3 +1,17 @@
+---
+name: RFC
+about: For all RFCs
+title: "[RFC]"
+labels: ''
+assignees: ''
+
+---
+
+---
+name: RFC
+about: A Request for Comments
+---
+
 # RFC0001: *RFC Title*
 
 ## Named Concepts
