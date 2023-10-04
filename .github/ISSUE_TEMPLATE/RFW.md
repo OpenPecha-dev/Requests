@@ -1,4 +1,18 @@
-# RFW0001: *RFW title*
+---
+name: RFW
+about: For all RFWs
+title: "[RFW00]"
+labels: ''
+assignees: ''
+
+---
+
+---
+name: RFW
+about: A Request for Work
+---
+
+# RFW00001: *RFW title*
 
 ## Named Concepts
 *Clearly introduce any new named concepts used in this RFW*
