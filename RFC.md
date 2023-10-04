@@ -28,17 +28,12 @@
 ## Implementation Steps
 *List all the steps involved during implementation.*
 
-- [ ] PR 1
-      
-      Estimated time:
-      
-      Actual time: 
-- [ ] PR 2
-      
-      Estimated time:
-      
-      Actual time: 
-
+- [ ] PR 1       
+      Estimated time:  
+      Actual time:  
+- [ ] PR 2  
+      Estimated time:  
+      Actual time:  
 
 ## Reviewed By
 *Who has reviewed the RFC?*
