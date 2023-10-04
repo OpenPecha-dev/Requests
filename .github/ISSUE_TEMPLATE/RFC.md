@@ -12,7 +12,7 @@ name: RFC
 about: A Request for Comments
 ---
 
-# RFC0001: *RFC Title*
+# RFC00: *RFC Title*
 
 ## Named Concepts
 *Explain any new concepts introduced in this request.*
