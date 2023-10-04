@@ -1,7 +1,7 @@
 ---
 name: RFC
 about: For all RFCs
-title: "[RFC]"
+title: "[RFC00]"
 labels: ''
 assignees: ''
 
