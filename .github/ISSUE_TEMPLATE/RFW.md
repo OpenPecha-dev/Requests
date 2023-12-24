@@ -1,33 +1,36 @@
 ---
-name: RFW
-about: For all RFWs
-title: "[RFW00]"
-labels: ''
+name: Request for Work (RFW)
+about: Template for new work requests.
+title: "RFW00: [Title]"
+labels: 'RFW'
 assignees: ''
 
 ---
 
----
-name: RFW
-about: A Request for Work
----
-
-# RFW00: *RFW title*
-
-## Named Concepts
-*Clearly introduce any new named concepts used in this RFW*
+# RFW00: [Title of the Work]
 
 ## Summary
-*Write a brief summary about the task you are want to complete.*
+Briefly describe the work in a couple of sentences.
 
-## Input
-*Write details about the input.*
+## Key Concepts
+List and define any specific terms or concepts related to this RFW.
 
-## Expected Output
-*Write details about expected output.*
+## Context
+Provide a clear, brief description of the work, its importance, and any background information necessary for someone new to understand and start the project.
 
-## Expected Timeline
-*You need to mention the expected time line you want.*
+## Outputs
+Outline what the completed work should look like with screenshots or concept illustrations.
+
+## Inputs
+Describe the required data or resources.
+
+## Timeline
+Indicate the expected deadline or time frame for the project.
 
 ## References
-*Include all the relevent references.*
+Include any relevant links or resources for additional context or information.
+
+---
+
+**Note:** Please ensure the information is clear and complete for effective work execution.
+
