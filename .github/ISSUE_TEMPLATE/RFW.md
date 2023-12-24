@@ -10,27 +10,23 @@ assignees: ''
 # RFW00: [Title of the Work]
 
 ## Summary
-Briefly describe the work in a couple of sentences.
+Briefly describe the work in a couple of sentences. 
 
 ## Key Concepts
 List and define any specific terms or concepts related to this RFW.
 
 ## Context
-Provide a clear, brief description of the work, its importance, and any background information necessary for someone new to understand and start the project.
+Provide a clear description of the work, its importance, and any background information necessary for someone new to understand and complete the work.
 
 ## Outputs
-Outline what the completed work should look like with screenshots or concept illustrations.
+Outline what the completed work should look like with screenshots or concept illustrations. Provide examples.
 
 ## Inputs
-Describe the required data or resources.
+Describe the required data or resources. Provide examples.
 
 ## Timeline
-Indicate the expected deadline or time frame for the project.
+Specify the expected delivery date for the project.
 
 ## References
 Include any relevant links or resources for additional context or information.
-
----
-
-**Note:** Please ensure the information is clear and complete for effective work execution.
 
