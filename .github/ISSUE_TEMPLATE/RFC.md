@@ -18,7 +18,7 @@ about: A Request for Comments
 *Explain any new concepts introduced in this request.*
 
 ## Summary
-*Write a brief summary about the task you are going to complete.*
+*Write a summary of the task you are going to complete.*
 
 ## Dependencies
 *Include all the dependencies you are going to use while implementing.*
@@ -27,7 +27,7 @@ about: A Request for Comments
 *Include all the infrastructure required for running the task, such as S3 bucket, EC2 server, etc.*
 
 ## Design Illustrations
-*Include all the pictorial representation of your implementation, such as flowchart, ER diagram, etc.*
+*Include all the pictorial representations of your implementation, such as flowchart, ER diagram, etc.*
 
 ## Justification
 *Add justification for the strategies you have proposed above.*
